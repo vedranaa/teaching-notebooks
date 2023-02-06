@@ -4,7 +4,7 @@
 February 2023*
 
 ## LECTURES
-- Intro to QIM, intro to 3DIM  (lecture, Anders)
+- Intro to QIM, intro to 3DIM  (lecture, Anders) [Link to presentation.](https://drive.google.com/file/d/1GHWZaNWdymsDziM6Cq3cbRm7Oqo6qd6H/view)
   Take-home message: Micro-CT allows imaging the microstructure of tissues and materials in 3D. However, analyzing volumetric CT data may be challenging. QIM supports. 
 
 - Surfaces and orientations (lecture, Vedrana) [Link to presentation.](https://drive.google.com/file/d/115D8DAnExdRdPLwEFTq9gLhr-5adgAwp/view?usp=sharing)
