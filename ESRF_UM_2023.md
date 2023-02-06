@@ -1,6 +1,7 @@
-# Volume image analysis
-QIM: Surfaces and orientations,
-February 2023
+# Volume image analysis tutorias
+
+*QIM: Surfaces and orientations,
+February 2023*
 
 ## LECTURES
 - Intro to QIM, intro to 3DIM  (lecture, Anders)
@@ -14,7 +15,8 @@ February 2023
 ## EXERCISES
 
 Notebooks with links to google Colab:
-- Images in Colab notebook
-- Detect layers notebook
-- Detect objects notebook
-- Orientations notebook
+- [Images in Colab notebook](Image_data_in_Colab.ipynb)
+- [Surfaces layers notebook](Surfaces_Detect_Layers.ipynb)
+- [Surfaces objects notebook](Surfaces_Detect_Objects.ipynb)
+- [Orientations 2D notebook](Orientations_2D_examples.ipynb)
+- [Orientations 3D notebook](Orientations_Small_3D_example.ipynb)
