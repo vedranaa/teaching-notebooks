@@ -16,6 +16,7 @@ February 2023*
 
 Notebooks with links to google Colab:
 - [Images in Colab notebook](Image_data_in_Colab.ipynb)
+- [Volumes in Colab notebook](Volume_data_in_colab.ipynb)
 - [Surfaces layers notebook](Surfaces_Detect_Layers.ipynb)
 - [Surfaces objects notebook](Surfaces_Detect_Objects.ipynb)
 - [Orientations 2D notebook](Orientations_2D_examples.ipynb)
