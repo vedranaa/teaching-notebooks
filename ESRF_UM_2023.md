@@ -7,7 +7,7 @@ February 2023*
 - Intro to QIM, intro to 3DIM  (lecture, Anders)
   Take-home message: Micro-CT allows imaging the microstructure of tissues and materials in 3D. However, analyzing volumetric CT data may be challenging. QIM supports. 
 
-- Surfaces and orientations (lecture, Vedrana) [link to presentation](https://drive.google.com/file/d/115D8DAnExdRdPLwEFTq9gLhr-5adgAwp/view?usp=sharing)
+- Surfaces and orientations (lecture, Vedrana) [Link to presentation.](https://drive.google.com/file/d/115D8DAnExdRdPLwEFTq9gLhr-5adgAwp/view?usp=sharing)
   Take-home message: If your 3D problem can be formulated as surface detection, you may reduce the complexity of your problem. If your analysis of fibrous material can be done without segmenting fibres, the stability of your approach can be improved.
 
 
