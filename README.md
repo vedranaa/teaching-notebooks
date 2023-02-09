@@ -10,4 +10,5 @@ Events:
  - [IA for Scientific Applications - focus MAX IV, Uppsala 2022](https://docs.google.com/document/d/1nXPq6tEzb2BtsR6waYliv-jtafFEX9bgx6IR5OB-4-0/edit?usp=sharing)
  - [Advanced Image Segmentation, 2022](https://docs.google.com/document/d/1Pb9mItZUcmIQDnxO-Xbyxn8oeGICev2oCb6w0aJprEI/edit?usp=sharing)
  - [ESRF Users Meeting 2022](https://docs.google.com/document/d/1TQbdzaNtTlKPTLG0USw1Ca8QflMFglYxu7VFqHrXmRw/edit?usp=sharing)
+ - [CINEMAX 2022](CINEMAX_2022.md)
 - [ESER Users Meeting 2023](ESRF_UM_2023.md)
