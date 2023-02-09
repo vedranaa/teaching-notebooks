@@ -14,8 +14,9 @@
 
 ## EXERCISES
 
-Notebooks with links to google Colab:
-- [Images in Colab notebook](Image_data_in_Colab.ipynb)
+Direct links to notebooks in google Colab:
+- [Image data in Colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb)
+
 - [Volumes in Colab notebook](Volume_data_in_colab.ipynb)
 - [Surfaces layers notebook](Surfaces_Detect_Layers.ipynb)
 - [Surfaces objects notebook](Surfaces_Detect_Objects.ipynb)
