@@ -1,14 +1,6 @@
-# Surfaces and orientations
+# Intro, UNets and IntSegtPy
 
-*The material for ESRF Users Meeting, Volume Image Analysis Tutorial by Vedrana Andersen Dahl, QIM, February 2023.*
-
-
-## LECTURES
-- Intro to QIM, intro to 3DIM  (lecture, Anders) [Link to presentation.](https://drive.google.com/file/d/1GHWZaNWdymsDziM6Cq3cbRm7Oqo6qd6H/view)
-  Take-home message: Micro-CT allows imaging the microstructure of tissues and materials in 3D. However, analyzing volumetric CT data may be challenging. QIM supports.
-
-- Surfaces and orientations (lecture, Vedrana) [Link to presentation.](https://drive.google.com/file/d/115D8DAnExdRdPLwEFTq9gLhr-5adgAwp/view?usp=sharing)
-  Take-home message: If your 3D problem can be formulated as surface detection, you may reduce the complexity of your problem. If your analysis of fibrous material can be done without segmenting fibres, the stability of your approach can be improved.
+*The material for Solid assembly, Aarhus 2/3-23, by Vedrana A Dahl and Anders B. Dahl.*
 
 
 
@@ -21,7 +13,6 @@
 Direct links to notebooks opened in google Colab:
 - [Image data in Colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb)
 - [Volume data in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb)
-- [Surfaces Detect Layers](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Layers.ipynb)
-- [Surfaces Detect Objects](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Objects.ipynb)
-- [Orientations 2D examples](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_2D_examples.ipynb)
-- [Orientations Small 3D example](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb)
+- Mini UNet (previously used in DTU course 02506), exercise and solution
+- InSegtPy
+- UNet from Monai (previously used in DTU course 02510)
