@@ -13,7 +13,7 @@
 Direct links to notebooks opened in google Colab:
 - [Image data in Colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb)
 - [Volume data in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb)
-- Mini UNet (previously used in DTU course 02506), [exercise](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/02506_week10_MiniUnet.ipynb) and [solution](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/02506_week10_MiniUnet_Solutions.ipynb)
+- MiniUnet (previously used in DTU course 02506), [exercise](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/02506_week10_MiniUnet.ipynb) and [solution](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/02506_week10_MiniUnet_Solutions.ipynb)
 - UNet from Monai (previously used in DTU course 02510)
 
 Additional links:
