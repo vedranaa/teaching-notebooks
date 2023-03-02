@@ -12,3 +12,4 @@ Events:
  - [ESRF Users Meeting 2022, online](https://docs.google.com/document/d/1TQbdzaNtTlKPTLG0USw1Ca8QflMFglYxu7VFqHrXmRw/edit?usp=sharing)
  - [CINEMAX 2022, Fuglsang](CINEMAX_2022.md)
 - [ESER Users Meeting 2023, Grenoble](ESRF_UM_2023.md)
+- [SOLID assembly](events/SOLID_assembly_2023.md)
