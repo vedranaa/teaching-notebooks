@@ -8,6 +8,7 @@ All notebooks are collected in thisgithub repository [https://github.com/vedrana
 
 Events:
  - [IA for Science (focus MAX IV), 2022 Uppsala](https://docs.google.com/document/d/1nXPq6tEzb2BtsR6waYliv-jtafFEX9bgx6IR5OB-4-0/edit?usp=sharing)
+ - [this](https://htmlpreview.github.io/?https://github.com/vedranaa/teaching-notebooks/blob/main/events/Advanced_segmentation_2022.html)
  - [Advanced Image Segmentation, 2022](https://docs.google.com/document/d/1Pb9mItZUcmIQDnxO-Xbyxn8oeGICev2oCb6w0aJprEI/edit?usp=sharing)
  - [ESRF Users Meeting 2022, online](https://docs.google.com/document/d/1TQbdzaNtTlKPTLG0USw1Ca8QflMFglYxu7VFqHrXmRw/edit?usp=sharing)
  - [CINEMAX 2022, Fuglsang](events/CINEMAX_2022.md)
