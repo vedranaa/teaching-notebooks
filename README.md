@@ -13,3 +13,4 @@ Events:
  - [CINEMAX 2022, Fuglsang](events/CINEMAX_2022.md)
 - [ESER Users Meeting 2023, Grenoble](events/ESRF_UM_2023.md)
 - [SOLID assembly, Aarhus 2023](events/SOLID_assembly_2023.md)
+- [Course 02509 2023](events/Course_02509_2023)
