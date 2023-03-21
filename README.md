@@ -2,7 +2,7 @@
 *Collection of notebooks used for teaching various courses.*
 
 
-At this site, I will be sharing the collections of notebooks I use in teaching. The notebooks are used in DTU courses and other events.
+At this site, https://vedranaa.github.io/teaching-notebooks/, I will be sharing the collections of notebooks I use in teaching. The notebooks are used in DTU courses and other events.
 
 All notebooks are collected in thisgithub repository [https://github.com/vedranaa/teaching-notebooks](https://github.com/vedranaa/teaching-notebooks). If you have experience with programming in Python, you can clone or download the repository and run the notebooks from your machine.
 
