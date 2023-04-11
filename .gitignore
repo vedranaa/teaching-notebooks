@@ -14,3 +14,8 @@ WORKING*
 PRIVATE*
 
 __pycache__/*
+glands.zip
+glands/*
+Gland_test.zip
+Gland_test/*
+checkpoint_500.pth
