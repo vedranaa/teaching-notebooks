@@ -14,3 +14,5 @@ Events:
 - [ESER Users Meeting 2023, Grenoble](events/ESRF_UM_2023.md)
 - [SOLID assembly, Aarhus 2023](events/SOLID_assembly_2023.md)
 - [Porosity, course 02509 2023](events/Course_02509_week6_2023.md)
+- [Thickness and orientation, course 02509 2023](events/Course_02509_week10_2023.md)
+
