@@ -5,10 +5,12 @@ cement_data/*
 porosity_data/*
 data/*
 .ipynb_checkpoints/*
-__MACOSX/._hourglass_crop.tiff
 hourglass_crop.tiff
 hourglass_crop.tiff.zip
 hourglass_temp_bin_vol.tiff
 hourglass_temp_vol.tiff
-*.ipynb
+
+WORKING*
+PRIVATE*
+
 __pycache__/*
