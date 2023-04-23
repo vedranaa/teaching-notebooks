@@ -22,3 +22,5 @@ checkpoint_500.pth
 volvizplotly.py
 multicube.tif
 cement_results/*
+Task08_HepaticVessel/*
+hepatic_visualization.ipynb
