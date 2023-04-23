@@ -19,15 +19,15 @@ Reading material:
 ## Cement analysis notebooks
 Cement data is very suitable for porosity analysis. If you look carefuly, you will see that cement used here contains two types of porositiesy. These are air bobbles and polymer spheres. The analysis below ignores this and simply binarizes the volume. Cement data is downloaded from the notebooks, and can also be  downloaded [here](https://qim.compute.dtu.dk/data-repository/cement_data.zip). 
 
--[02509 cement porosity analysis](https://github.com/vedranaa/teaching-notebooks/blob/main/02509_cement_connected_components.ipynb), segmentation and CC-based porosity analysis and quantification.
+-[02509 cement porosity analysis](https://github.com/vedranaa/teaching-notebooks/blob/main/02509_cement_porosity.ipynb), segmentation and CC-based porosity analysis and quantification.
 
 -[Cement porosity analysis](https://github.com/vedranaa/teaching-notebooks/blob/main/Cement_porosity_analysis.ipynb), comparison of CC-based porosity analysis and LT-based porosity analysis.
 
--[02510 guantification example](https://github.com/vedranaa/teaching-notebooks/blob/main/02510_quantification_material_fraction.ipynb), and example of collecting measures in smaller subvolumes of the larger volume. Here we collect material fraction, so a very simple measurement.
+-[02510 guantification example](https://github.com/vedranaa/teaching-notebooks/blob/main/02510_quantification_material_fraction.ipynb), and example of collecting measures in smaller subvolumes of the larger volume. Here we collect material fraction, so a very simple measurement. This is a part of code provided in 02510 course.
 
--[02510 quantification pore thickness](https://github.com/vedranaa/teaching-notebooks/blob/main/02510_quantification_pore_thickness.ipynb) on a subvolume
+-[02510 quantification pore thickness](https://github.com/vedranaa/teaching-notebooks/blob/main/02510_quantification_pore_thickness.ipynb) local thickness on a subvolume for quantification of material properties. This is a part of code provided in 02510 course.
 
--[02510 quantification](https://github.com/vedranaa/teaching-notebooks/blob/main/02510_quantification.ipynb)
+-[02510 quantification](https://github.com/vedranaa/teaching-notebooks/blob/main/02510_quantification.ipynb) block-wise quantification of material properties using local thickness. This is a solution of the task given in 02510 course.
 
 
 

@@ -21,3 +21,4 @@ Gland_test/*
 checkpoint_500.pth
 volvizplotly.py
 multicube.tif
+cement_results/*
