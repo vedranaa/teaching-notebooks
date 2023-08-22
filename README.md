@@ -16,4 +16,5 @@ Events:
 - [Porosity, course 02509 2023](events/Course_02509_week6_2023.md)
 - [Thickness and orientation, course 02509 2023](events/Course_02509_week10_2023.md)
 - [Porosity analysis, collection of notebooks](events/porosity_course.md)
+ - [CINEMAX 2023, Fuglsang](events/CINEMAX_2023.md)
 
