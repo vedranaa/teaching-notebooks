@@ -2,7 +2,9 @@
 
 *The material for CINEMAX summers school 2023, Vedrana Andersen Dahl*
 
-
+```
+print(p)
+```
 
 Various resources:
 - Slides on surfaces and orientations, [reduced public version](https://drive.google.com/file/d/115D8DAnExdRdPLwEFTq9gLhr-5adgAwp/view).
