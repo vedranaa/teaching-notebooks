@@ -2,10 +2,6 @@
 
 *The material for CINEMAX summer school 2023, Vedrana Andersen Dahl*
 
-``
-print(p)
-``
-
 Various resources:
 - Slides on surfaces and orientations, [reduced public version](https://drive.google.com/file/d/115D8DAnExdRdPLwEFTq9gLhr-5adgAwp/view).
 - Analysing orientation without segmentation: structure tensor, as covered in the  [Structure tensors note](http://people.compute.dtu.dk/vand/notes/ST_intro.pdf).
