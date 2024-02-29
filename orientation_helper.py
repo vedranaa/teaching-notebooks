@@ -68,3 +68,16 @@ def show_coloring(coloring, nu=15):
 
         
     plt.show()
+
+def show_vol_flow(V, vec, z, s=5, double_arrow = False, ax=None):     
+    xmesh, ymesh = np.mgrid[0:V.shape[1], 0:V.shape[2]]
+    if ax is None:
+      fig, ax = plt.subplots()
+    ax.imshow(V[z], cmap=plt.cm.gray)
+    g = slice(s//2, None, s)
+    ax.quiver(ymesh[g, g], xmesh[g, g], vec[0, z, g, g], vec[1, z, g, g],
+              color='r', angles='xy')
+    if double_arrow:
+        ax.quiver(ymesh[g, g], xmesh[g, g], -vec[0, z, g, g], -vec[1, z, g, g],
+              color='r', angles='xy')
+    ax.set_title(f'slice z={z}')
