@@ -1,3 +1,7 @@
+"""
+Author: vand@dtu.dk
+"""
+
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import mpl_toolkits.mplot3d
