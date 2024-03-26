@@ -1,5 +1,5 @@
 """
-Matplotlib helper functions for orientation analysis.
+Plotly and matplotlib helper functions for orientation analysis.
 
 Author: vand@dtu.dk
 """
