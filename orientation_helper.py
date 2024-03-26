@@ -1,4 +1,6 @@
 """
+Matplotlib helper functions for orientation analysis.
+
 Author: vand@dtu.dk
 """
 
@@ -9,9 +11,6 @@ import numpy as np
 import scmap
 from icosphere import icosphere
 
-
-
-# Matplotlib helper functions
 
 def show_vol_orientation(V, vec, z, coloring, alpha=0.5, ax=None):
 
