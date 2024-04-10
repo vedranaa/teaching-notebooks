@@ -1,3 +1,9 @@
+"""
+Plotly and matplotlib helper functions for orientation analysis.
+
+Author: vand@dtu.dk
+"""
+
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import mpl_toolkits.mplot3d
@@ -5,9 +11,6 @@ import numpy as np
 import scmap
 from icosphere import icosphere
 
-
-
-# Matplotlib helper functions
 
 def show_vol_orientation(V, vec, z, coloring, alpha=0.5, ax=None):
 
