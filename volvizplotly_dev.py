@@ -56,7 +56,7 @@ def volume_slicer(vol, slices,
             g[i] *= s
             if RGB:
                 eight_bit_img = PIL.Image.fromarray(
-                    (255 * volslice(vol, i, s)).astype(np.uint8), 'RGB').convert('P', palette='WEB', dither=None)
+                    (255 * volslice(vol, i, s)).astype(np.uint8), 'RGB').convert('P', palette=PIL.Image.ADAPTIVE, dither=None)
                 idx_to_color = np.array(eight_bit_img.getpalette()).reshape((-1, 3))
                 colorscale=[[i/255.0, "rgb({}, {}, {})".format(*rgb)] for i, rgb in enumerate(idx_to_color)]
                 surf = dict(x=g[2], y=g[1], z=g[0], surfacecolor=np.array(eight_bit_img), cmin=0, cmax=255, 
