@@ -7,8 +7,8 @@ The easiest way of quickly trining the notebooks is from google colab, only requ
 
 
 ### Introduction (optional)
-- Image data: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb)
-- Volume data: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb)
+- Loading image data: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb)
+- Loading volume data: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb)
 ### Orientations
 - Orientations 2D examples: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Orientations_2D_examples.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_2D_examples.ipynb)
 - Orientations Small 3D example: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb)
