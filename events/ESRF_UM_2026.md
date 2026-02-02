@@ -1,4 +1,4 @@
-# Orientations, thickness, and surfaces in 3D images
+# Orientations and thickness
 
 *The material for ESRF Users Meeting, February 2026*
 
