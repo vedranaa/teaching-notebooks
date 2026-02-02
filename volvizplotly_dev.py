@@ -55,12 +55,62 @@ def volume_slicer(vol, slices,
             s = slices[i][j]
             g[i] *= s
             if RGB:
-                eight_bit_img = PIL.Image.fromarray(
-                    (255 * volslice(vol, i, s)).astype(np.uint8), 'RGB').convert('P', palette=PIL.Image.ADAPTIVE, dither=None)
-                idx_to_color = np.array(eight_bit_img.getpalette()).reshape((-1, 3))
-                colorscale=[[i/255.0, "rgb({}, {}, {})".format(*rgb)] for i, rgb in enumerate(idx_to_color)]
-                surf = dict(x=g[2], y=g[1], z=g[0], surfacecolor=np.array(eight_bit_img), cmin=0, cmax=255, 
-                            colorscale=colorscale, showscale=show_scale)
+                # Deterministic approach without PIL palette conversion
+                rgb_slice = volslice(vol, i, s)
+                
+                # Ensure RGB values are in [0, 1] range
+                if rgb_slice.max() > 1.0:
+                    rgb_slice = rgb_slice / 255.0
+                
+                # Quantize to 5 bits per channel (32 levels) - balance between quality and colors
+                # This gives 32K possible colors, deterministically
+                rgb_uint8 = (np.clip(rgb_slice, 0, 1) * 255).astype(np.uint8)
+                rgb_quantized = (rgb_uint8 >> 3) << 3  # Keep top 5 bits
+                
+                # Get unique colors from quantized image
+                h, w = rgb_quantized.shape[:2]
+                rgb_flat = rgb_quantized.reshape(-1, 3)
+                unique_colors, indices = np.unique(rgb_flat, axis=0, return_inverse=True)
+                
+                n_colors = len(unique_colors)
+                
+                # Limit to 256 colors for Plotly performance
+                if n_colors > 256:
+                    # Subsample to 256 colors evenly distributed
+                    step = n_colors // 256
+                    selected_idx = np.arange(0, n_colors, step)[:256]
+                    selected_colors = unique_colors[selected_idx]
+                    
+                    # Remap indices to nearest of the 256 colors
+                    new_indices = np.zeros(len(indices), dtype=int)
+                    for old_idx, new_idx in enumerate(selected_idx):
+                        new_indices[indices == old_idx] = np.where(selected_idx == new_idx)[0][0]
+                    
+                    # For colors not in selected set, find nearest
+                    for old_idx in range(n_colors):
+                        if old_idx not in selected_idx:
+                            color = unique_colors[old_idx]
+                            distances = np.sum((selected_colors - color)**2, axis=1)
+                            nearest = np.argmin(distances)
+                            new_indices[indices == old_idx] = nearest
+                    
+                    index_array = new_indices.reshape(h, w).astype(float)
+                    unique_colors = selected_colors
+                    n_colors = 256
+                else:
+                    index_array = indices.reshape(h, w).astype(float)
+                
+                # Build colorscale
+                if n_colors == 1:
+                    colorscale_list = [[0, "rgb({},{},{})".format(*unique_colors[0])],
+                                      [1, "rgb({},{},{})".format(*unique_colors[0])]]
+                else:
+                    colorscale_list = [[i/(n_colors-1), "rgb({},{},{})".format(*color)] 
+                                      for i, color in enumerate(unique_colors)]
+                
+                surf = dict(x=g[2], y=g[1], z=g[0], surfacecolor=index_array, 
+                           cmin=0, cmax=n_colors-1, 
+                           colorscale=colorscale_list, showscale=show_scale)
             else:
                 surf = dict(x=g[2], y=g[1], z=g[0], surfacecolor=volslice(vol, i, s), colorscale=colorscale, cmin=cmin, cmax=cmax, 
                   showscale=show_scale)
