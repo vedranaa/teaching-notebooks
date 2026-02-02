@@ -6,18 +6,18 @@ The notebooks may be found on the github repository [https://github.com/vedranaa
 The easiest way of quickly trining the notebooks is from google colab, only requiring a google account. 
 
 
-### Introduction
-- Image data: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb)
-- Volume data: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb)
+### Introduction (optional)
+- Image data: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Image_data_in_Colab.ipynb)
+- Volume data: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Volume_data_in_colab.ipynb)
 ### Orientations
-- Orientations 2D examples: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Orientations_2D_examples.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_2D_examples.ipynb)
-- Orientations Small 3D example: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb)
+- Orientations 2D examples: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Orientations_2D_examples.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_2D_examples.ipynb)
+- Orientations Small 3D example: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb)
 ### Thickness
-- Fast Local Thickness module: [link to the module in github](https://github.com/vedranaa/local-thickness)
-- Visualizing 3D local thickness: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/local_thickness_3D_visualization.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/local_thickness_3D_visualization.ipynb)
-- Cement porosity analysis example: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Cement_porosity_analysis.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Cement_porosity_analysis.ipynb)
+- Fast Local Thickness module: [module in github](https://github.com/vedranaa/local-thickness)
+- Visualizing 3D local thickness: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/local_thickness_3D_visualization.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/local_thickness_3D_visualization.ipynb)
+- Cement porosity analysis example: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Cement_porosity_analysis.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Cement_porosity_analysis.ipynb)
 
-### Surfaces
-- Surfaces Detect Layers: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Layers.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Layers.ipynb)
-- Surfaces Detect Objects: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Objects.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Objects.ipynb)
+### Surfaces (optional)
+- Surfaces Detect Layers: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Layers.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Layers.ipynb)
+- Surfaces Detect Objects: notebook in [github](https://github.com/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Objects.ipynb), [colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Objects.ipynb)
 
