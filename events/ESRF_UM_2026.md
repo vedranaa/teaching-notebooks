@@ -14,6 +14,7 @@ The easiest way of quickly trining the notebooks is from google colab, only requ
 - Orientations Small 3D example: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Orientations_Small_3D_example.ipynb)
 ### Thickness
 - Fast Local Thickness module: [link to the module in github](https://github.com/vedranaa/local-thickness)
+- Visualizing 3D local thickness: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/local_thickness_3D_visualization.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/local_thickness_3D_visualization.ipynb)
 
 ### Surfaces
 - Surfaces Detect Layers: [notebook in github](https://github.com/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Layers.ipynb), [notebook in colab](https://colab.research.google.com/github/vedranaa/teaching-notebooks/blob/main/Surfaces_Detect_Layers.ipynb)
