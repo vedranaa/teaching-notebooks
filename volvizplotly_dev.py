@@ -63,12 +63,24 @@ def volume_slicer(vol, slices,
                 # Convert to 8-bit RGB for consistent color representation
                 rgb_uint8 = (np.clip(rgb_slice, 0, 1) * 255).astype(np.uint8)
                 
-                # Use adaptive palette without dithering for consistent colors
-                eight_bit_img = PIL.Image.fromarray(rgb_uint8, 'RGB').convert('P', palette='ADAPTIVE', colors=256, dither=None)
-                idx_to_color = np.array(eight_bit_img.getpalette()).reshape((-1, 3))
-                colorscale=[[i/255.0, "rgb({}, {}, {})".format(*rgb)] for i, rgb in enumerate(idx_to_color)]
-                surf = dict(x=g[2], y=g[1], z=g[0], surfacecolor=np.array(eight_bit_img), cmin=0, cmax=255, 
-                            colorscale=colorscale, showscale=show_scale)
+                # Create direct color mapping without PIL palette conversion
+                # Reshape to list of RGB triplets
+                h, w = rgb_uint8.shape[:2]
+                rgb_flat = rgb_uint8.reshape(-1, 3)
+                
+                # Find unique colors and create index map
+                unique_colors, indices = np.unique(rgb_flat, axis=0, return_inverse=True)
+                index_array = indices.reshape(h, w)
+                
+                # Create colorscale from unique colors
+                n_colors = len(unique_colors)
+                colorscale = [[i/(n_colors-1 if n_colors > 1 else 1), 
+                              "rgb({},{},{})".format(*color)] 
+                             for i, color in enumerate(unique_colors)]
+                
+                surf = dict(x=g[2], y=g[1], z=g[0], surfacecolor=index_array, 
+                           cmin=0, cmax=n_colors-1, 
+                           colorscale=colorscale, showscale=show_scale)
             else:
                 surf = dict(x=g[2], y=g[1], z=g[0], surfacecolor=volslice(vol, i, s), colorscale=colorscale, cmin=cmin, cmax=cmax, 
                   showscale=show_scale)
