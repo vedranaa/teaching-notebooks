@@ -17,7 +17,7 @@ Reading material:
 
 
 ## Cement analysis notebooks
-Cement data is very suitable for porosity analysis. If you look carefuly, you will see that cement used here contains two types of porositiesy. These are air bobbles and polymer spheres. The analysis below ignores this and simply binarizes the volume. Cement data is downloaded from the notebooks, and can also be  downloaded [here](https://qim.compute.dtu.dk/data-repository/cement_data.zip). 
+Cement data is very suitable for porosity analysis. If you look carefuly, you will see that cement used here contains two types of porositiesy. These are air bobbles and polymer spheres. The analysis below ignores this and simply binarizes the volume. Cement data is downloaded from the notebooks, and can also be  downloaded [here](https://data.qim.dk/cement_data.zip). 
 
 -[02509 cement porosity analysis](https://github.com/vedranaa/teaching-notebooks/blob/main/02509_cement_porosity.ipynb), segmentation and CC-based porosity analysis and quantification, LT-based porosity analysis and quantification. Also shown how to save results to be visualized in ParaView.
 
@@ -33,7 +33,7 @@ Cement data is very suitable for porosity analysis. If you look carefuly, you wi
 
 
 ## Hourglass analysis notebooks
-Hourglas data depicts the sand grains in a hourglas. Data can be downloaded from [hourglass page](https://qim.compute.dtu.dk/data-repository/pages/hourglass.html) of QIM data repository..
+Hourglas data depicts the sand grains in a hourglas. Data can be downloaded from [hourglass page](https://data.qim.dk/pages/hourglass.html) of QIM data repository..
 
 - [02509_hourglass cropping](https://github.com/vedranaa/teaching-notebooks/blob/main/02509_hourglass_cropping.ipynb) preprocessing the data after being downloaded.
 

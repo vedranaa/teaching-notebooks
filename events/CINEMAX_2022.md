@@ -4,7 +4,7 @@
 
 Useful links:
 
-- QIM Repository of volumetric (tomographic) data [http://qim.compute.dtu.dk/data-repository/](http://qim.compute.dtu.dk/data-repository/). You are free to use this data for experiments.
+- QIM Repository of volumetric (tomographic) data [http://data.qim.dk/](http://data.qim.dk/). You are free to use this data for experiments.
 - Some more data:
   - Easy data folder, contains scans (reconstructed tomograms) of Ferrero Rocher, floedebolle, and walnut
   - Orientations data suitable for structure tensor computation, contains scans of samples of composite materials, stone wall, and synthetic data
